@@ -1,0 +1,27 @@
+let var_1= 'hello';
+let var_2 = 'owu';
+let var_3 = 'com';
+let var_4= 'ua';
+let var_5= 1;
+let var_6= 10;
+let var_7= -999;
+let var_8= 123;
+let var_9= 3.14;
+let var_10 = 2.7;
+let var_11= 16;
+let var_12 = true;
+let var_13 = false;
+
+console.log(var_1);
+console.log(var_2);
+console.log(var_3);
+console.log(var_4);
+console.log(var_5);
+console.log(var_6);
+console.log(var_7);
+console.log(var_8);
+console.log(var_9);
+console.log(var_10);
+console.log(var_11);
+console.log(var_12);
+console.log(var_13);
