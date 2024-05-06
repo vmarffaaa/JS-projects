@@ -15,7 +15,7 @@ let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'an
 
 document.write('<ul> <b>Список модулів:</b>');
 for (let i = 0; i < listOfItems.length; i++) {
-    document.write('<li>' + listOfItems[i] + '</li>');
+    document.write(`<li> ${listOfItems[i]} </li>`);
 }
 document.write('</ul>');
 
@@ -54,8 +54,7 @@ let products = [
 ];
 document.write('<div class="product-card">');
 for (let i = 0; i < products.length; i++) {
-    document.write('<h3 class="product-title">' + products[i].title.toUpperCase() + '. Price - ' + products[i].price
-        + '</h3>');
+    document.write(`<h3 class="product-title"> ${products[i].title.toUpperCase()}. Price - ${products[i].price} </h3>`);
     document.write('<img src="' + products[i].image + '" alt="' + products[i].title + '" class="product-image" ' +
         'style="height: 200px;">');
 }

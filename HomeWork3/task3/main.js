@@ -36,7 +36,7 @@ document.write('<h2> ---------- Task 3.1 ---------- </h2>');
 document.write('<ul> <b>Користувачі зі статусом true</b>');
 for(let i = 0; i < users.length; i++){
     if (users[i].status === true){
-        document.write('<li>' + users[i].name + '</li>');
+        document.write(`<li> ${users[i].name} </li>`);
     }
 }
 document.write('</ul>');
@@ -46,17 +46,17 @@ document.write('<h2> ---------- Task 3.2 ---------- </h2>');
 document.write('<ul> <b>Користувачі зі статусом false</b>');
 for(let i = 0; i < users.length; i++){
     if (users[i].status === false){
-        document.write('<li>' + users[i].name + '</li>');
+        document.write(`<li> ${users[i].name} </li>`);
     }
 }
 document.write('</ul>');
 
 document.write('<h2> ---------- Task 3.3 ---------- </h2>');
 //- користувачів які старші за 30 років
-document.write('<ul> <b>Користувачі старші за 30 років</b>');
+document.write('<ul><b>Користувачі старші за 30 років</b>');
 for(let i = 0; i < users.length; i++){
     if (users[i].age > 30){
-        document.write('<li>' + users[i].name + '</li>');
+        document.write(`<li> ${users[i].name} </li>`);
     }
 }
 document.write('</ul>');
