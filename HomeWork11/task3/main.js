@@ -8,7 +8,6 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .then(users => {
         const userList = document.getElementById('usersList');
         users.forEach(user => {
-            let counter = 0;
             const listItem = document.createElement('li');
             const link = document.createElement('a');
             link.href = `https://jsonplaceholder.typicode.com/users/${parseInt(user.id)}`;
