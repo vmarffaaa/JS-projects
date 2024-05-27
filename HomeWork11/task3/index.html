@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Task3</title>
+    <style>
+        ul{
+            list-style-type: none;
+            font-size: 18px;
+        }
+        a{
+            text-decoration:none;
+            color: #252020;
+        }
+        .users{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .list{
+            width: 300px;
+            background: darkgray;
+            border: thick double #252020;
+        }
+        .list>h2{
+            margin-left: 30px;
+            color: #252020;
+        }
+
+    </style>
 </head>
 <body>
+<div class="users">
+    <div class="list">
+        <h2>Список users</h2>
+        <ul id="usersList"></ul>
+    </div>
+ </div>
 
 <script src="main.js"></script>
 
